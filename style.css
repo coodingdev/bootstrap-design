@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  body{
+    background-image: url("img/bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.head a{
+    text-decoration: none;
+}
+
+.head h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 10px;
+    margin-bottom: 0;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.head h1:hover {
+    opacity: 0.5;
+}
+
+.clr{
+    clear: both;
+}
+
+.head-right {
+    display: flex;
+    
+}
+
+.head-left a {
+    color: white;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.card {
+    margin: 20px 10px;
+}
+
+
+.card-body {
+    background-color: blanchedalmond;
+    text-align: center;
+    box-shadow: 0px 0px 3px 4px whitesmoke;
+    margin-bottom: 20px;
+}
+
+.card-body a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-body a:hover {
+    color: blue;
+    opacity: 0.6;
+
+}
+ 
