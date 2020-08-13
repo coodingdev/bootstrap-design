@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  
+    body{
+      background-image: url("img/bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+    }
+  
+    
+/*
   body{
     background-image: url("img/bg.jpg");
     height: 100%;
@@ -11,7 +26,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+*/
   .iframe-container{
     position: relative;
     width: 100%;
