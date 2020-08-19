@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*html,body{
+    height: 100%;
+}
+*/
+body{
+    background-image: url("img/bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  
+
+
+.head-right a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+
+
+.head-right {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.activities img {
+    margin-top: 90px auto;
+    display: flex;
+}
+
+
+.activities h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+
